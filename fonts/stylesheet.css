@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'elegant_dragonitalic';
+    src: url('elegant_dragon_italic.woff2') format('woff2'),
+         url('elegant_dragon_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: cursive;
+
+}
