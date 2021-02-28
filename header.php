@@ -16,7 +16,7 @@
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light sticky-top" style="border-bottom: 1px double gold;">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top bg-light" style="border-bottom: 1px double gold;">
       <small class="navbar-brand"><img src="img/logo.png" width="50%"></small>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
