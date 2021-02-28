@@ -20,7 +20,7 @@
         </div>
       </div>
       <hr>
-      <div class="row ">
+      <div class="row mt-3">
         <div class=" text-secondary col-md-12 text-center">
           <h3 type="button" id="uno"> <i class="fab fa-studiovinari"></i>Estudios realizados <i class="fas fa-sort-down"></i></h3>
           <div id="estudios" hidden>
@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-      <div class="row ">
+      <div class="row mt-3">
         <div class=" text-secondary col-md-12 text-center">
           <h3 type="button" id="dos"> <i class="fab fa-d-and-d"></i>Experencia actual <i class="fas fa-sort-down"></i></h3>
           <div id="experiencia" hidden>
@@ -38,11 +38,11 @@
           </div>
         </div>
       </div>
-      <div class="row ">
+      <div class="row mt-3">
         <div class=" text-secondary col-md-12 text-center">
-          <h3 type="button" id="tres"> <i class="fab fa-d-and-d"></i>Lenguajes aprendidos <i class="fas fa-sort-down"></i></h3>
-          <div id="lenguajes">
-            <div class="row my-3">
+          <h3 type="button" id="tres"> <i class="fab fa-acquisitions-incorporated"></i> Lenguajes aprendidos <i class="fas fa-sort-down"></i></h3>
+          <div id="lenguajes" hidden>
+            <div class="row mt-3">
               <div class="col-4">
                 <img src="img/lenguajes/html.png"><br>
                 <small>HTML</small>
@@ -68,6 +68,36 @@
               <div class="col-4">
                 <img src="img/lenguajes/bootstrap.png"><br>
                 <small>BOOTSTRAP</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class=" text-secondary col-md-12 text-center">
+          <h3 type="button" id="cuatro"> <i class="fas fa-language"></i> Idiomas <i class="fas fa-sort-down"></i></h3>
+          <div id="idiomas" >
+            <div class="row mt-3">
+              <div class="col-4" style="border: 1px solid black">
+                <h4>Español</h4>
+                <hr style="border: 1px solid grey">
+                <p> <strong>Oral:</strong> Nativo </p>
+                <p> <strong>Escritura:</strong> Nativo</p>
+                <p> <strong>Lectura:</strong> Nativo </p>
+              </div>
+              <div class="col-4" style="border: 1px solid black">
+                <h4>Catalán</h4>
+                <hr style="border: 1px solid grey">
+                <p> <strong>Oral:</strong> Nativo </p>
+                <p> <strong>Escritura:</strong> Nativo</p>
+                <p> <strong>Lectura:</strong> Nativo </p>
+              </div>
+              <div class="col-4" style="border: 1px solid black">
+                <h4>Inglés</h4>
+                <hr style="border: 1px solid grey">
+                <p> <strong>Oral:</strong> Intermedio </p>
+                <p> <strong>Escritura:</strong> Intermedio</p>
+                <p> <strong>Lectura:</strong> Intermedio </p>
               </div>
             </div>
           </div>

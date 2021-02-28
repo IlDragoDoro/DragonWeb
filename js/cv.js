@@ -31,4 +31,13 @@ document.addEventListener('DOMContentLoaded', function () {
       lenguajes.hidden = false;
     }
   };
+
+  cuatro.onclick = () => {
+    var idiomas = document.getElementById('idiomas');
+    if (idiomas.hidden == false) {
+      idiomas.hidden = true;
+    }else {
+      idiomas.hidden = false;
+    }
+  };
 });
