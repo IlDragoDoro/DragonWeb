@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
+  var fechaActual = new Date();
   var interval = setInterval(function () {
-    var fechaActual = new Date();
+    fechaActual = new Date();
     var fecha = document.getElementById('date');
     fecha.innerHTML = 'Fecha: ' +
     ('0' + fechaActual.getDate()).slice(-2) + '/' +
@@ -10,4 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
     + ('0' + fechaActual.getMinutes()).slice(-2) + ':' +
     ('0' + fechaActual.getSeconds()).slice(-2);
   }, 1000);
+
+  var copyright = document.getElementById('copyright');
+  copyright.innerHTML = '@' + fechaActual.getFullYear()
+                         + ' Copyright: <strong> VBD PRODUCTIONS </strong>';
+
 });
