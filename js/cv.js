@@ -40,4 +40,13 @@ document.addEventListener('DOMContentLoaded', function () {
       idiomas.hidden = false;
     }
   };
+
+  cinco.onclick = () => {
+    var about = document.getElementById('about');
+    if (about.hidden == false) {
+      about.hidden = true;
+    }else {
+      about.hidden = false;
+    }
+  };
 });
