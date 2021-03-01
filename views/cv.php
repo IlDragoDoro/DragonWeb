@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row" style="font-family: 'comic-sans';">
           <div class="col-md-4">
-            <img class="w-100" src="../multimedia/img/cvprofile.png" alt="">
+            <img id="profile" class="w-100" src="../multimedia/img/profile/1.png">
           </div>
           <div class="col-md-8 text-center mt-4">
             <h2>Vicenç Beltrán Díaz</h2>
@@ -107,4 +107,24 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function () {
+    var img = document.getElementById('profile');
+    var i = 1;
+    img.onmouseenter = () => {
+      var interval = setInterval(function () {
+        img.src = '../multimedia/img/profile/' + i + '.png';
+        if (i < 18) {
+          i++;
+        } else if (i == 18) {
+          i = 1;
+        }
+      }, 100);
+      img.onmouseleave = () => {
+        clearInterval(interval);
+      }
+    };
+
+  });
+</script>
     <?php include('../common/footer.php'); ?>
