@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var tres = document.getElementById('tres');
   var cuatro = document.getElementById('cuatro');
   var cinco = document.getElementById('cinco');
-
   uno.onclick = () => {
     var estudios = document.getElementById('estudios');
     if (estudios.hidden == false) {

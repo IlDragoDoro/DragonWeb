@@ -101,9 +101,14 @@
       <div class="row mt-3">
         <div class=" text-secondary col-md-12 text-center">
           <h3 type="button" id="cinco"> <i class="fas fa-user-tag"></i> Sobre mi <i class="fas fa-sort-down"></i></h3>
-          <div id="about" hidden>
-            <p>Aquí debo poner algo sobre mi pero aun no se bien que xD</p>
-          </div>
+          <div id="about" >
+            <div class="row">
+              <div class="col-12 border text-center">
+                <h5> <strong>Edad:</strong>  <label id="edad"></label> años.</h5>
+                <h5> <strong>Sexo:</strong> Masculino.</h5>
+                <h5> <strong>Profesión:</strong> Desarollador web </h5>
+              </div>
+            </div>
         </div>
       </div>
     </div>

@@ -28,7 +28,7 @@
   <div class="row mt-3 bg-light" style="border: 1px solid gold;">
     <div class="col-md-12">
       <div class="embed-responsive embed-responsive-21by9">
-        <iframe  src="../multimedia/video/video.mp4" allowfullscreen ></iframe>
+        <iframe  src="../multimedia/video/presentacion.mp4" allowfullscreen ></iframe>
       </div>
     </div>
   </div>
