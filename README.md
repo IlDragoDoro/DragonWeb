@@ -10,3 +10,6 @@ La intención de este proyecto es meterme de pleno ya en algo
 real que me sirva de apoyo en un futuro y con lo que aprender
 y mejorar de forma que pretendo seguir todo el tiempo posible
 con este proyecto para ir mejorandolo y tenerlo al día.
+
+04/03/2021: He agregado un video a gitignore por que pesa
+demasiado, es la presentación.
