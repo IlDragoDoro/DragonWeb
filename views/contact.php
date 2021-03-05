@@ -3,6 +3,7 @@
     <div class="container">
       <h2 class="text-center mb-3" style="text-decoration: underline; font-family: cursive;">Contacta conmigo:</h2>
       <div class="row">
+        <h3 id="ok"></h3>
         <div class="col-md-12">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d393607.83979083266!2d2.4253621356114556!3d39.58076996990948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297948706061e07%3A0xe1523779302cd452!2sPalma%20de%20Mallorca%2C%20Islas%20Baleares!5e0!3m2!1ses!2ses!4v1614876682788!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>

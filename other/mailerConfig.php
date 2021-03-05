@@ -40,8 +40,7 @@
           echo "Error al enviar el mensaje";
           var_dump($mail);
         }else{
-          echo "<script>alert('El mensaje se ha envado correctamente')</script>";
-
+          echo '<i class="fa fa-check" aria-hidden="true"></i> El mensaje se ha enviado correctamente';
         }
           }
     }
