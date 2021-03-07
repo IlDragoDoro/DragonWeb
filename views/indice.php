@@ -33,7 +33,9 @@
   <div class="row mt-3 bg-light">
     <div class="col-md-12">
       <div class="embed-responsive embed-responsive-21by9">
-        <iframe  src="../multimedia/video/presentacion.mp4" allowfullscreen ></iframe>
+        <video controls controlslist="nodownload" disablePictureInPicture style="background-color: black">
+          <source src="../multimedia/video/presentacion.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
   </div>
