@@ -2,6 +2,10 @@
   h1{
     font-family: elegant_dragonitalic;
   }
+  img:hover{
+    filter: brightness(200%);
+    transition: 2s;
+  }
 </style>
 </head>
 <body>
@@ -36,7 +40,7 @@
 </div>
 
 <!-- Aquí las redes sociales -->
-<div class="container">
+<div class="container rrss">
   <div class="row mt-4">
     <div class="col-md-12 text-center text-secondary">
       <h4 style="font-family:cursive">Podeis ver mi social media:</h4>
