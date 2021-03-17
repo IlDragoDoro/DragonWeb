@@ -24,7 +24,7 @@
     a{
       font-family: cursive;
     }
-    a:hover{
+    .navbar a:hover{
       transform: rotate(360deg);
       transition: 3s;
     }
